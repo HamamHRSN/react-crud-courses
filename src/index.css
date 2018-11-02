@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +11,91 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background: #240202;
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+h2 {
+  background: #d08686;
+  padding: 18px;
+  color: #fff;
+  text-align: center;
+}
+.App{
+  padding: 30px;
+  background: #ebb0b0;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 1px 2px 5px #eee;
+  -webkit-box-shadow: 1px 2px 5px #eee;
+  -moz-box-shadow: 1px 2px 5px #eee;
+  -o-box-shadow: 1px 2px 5px #eee;
+}
+input {
+  width: 80%;
+  border: 0;
+  padding: 6px 10px;
+  background: #b18282;
+  color: #fff;
+}
+button{
+  width: 20%;
+  border: 0;
+  padding: 6px 0;
+  margin: 0;
+  outline: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background: #497e5b;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin: 15px 0;
+  margin-bottom: 5px;
+}
+li span {
+  display: inline-block;
+  width: 60%;
+  color: #6a6a6a;
+
+ 
+}
+li > button:first-of-type {
+  background: #6a6a6a;
+  color: #fff;
+  margin-right: 1%;
+  width: 19%;
+}
+li > button:last-of-type {
+  background: #ee6d6d;
+  color: #fff;
+
+}
+ul > form {
+  margin: 15px 0;
+}
+
+.noCourses {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
